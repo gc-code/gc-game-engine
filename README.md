@@ -7,5 +7,3 @@ Dynamic lighting was implemented that would change as the model was rotated on t
 
 I created an export script for Blender 3D that has been lost. This allowed me to develop models in Blender that could then be exported
 for use in the game engine.
-
-George Christian
