@@ -1,0 +1,13 @@
+//
+//	Windows resource for the level editor GUI
+//
+
+#include "resource.h"
+
+IDR_MENU MENU
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM "&Open", ID_FILE_OPEN
+	END
+END

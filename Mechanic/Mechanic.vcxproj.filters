@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{a0794461-60d8-489b-b38e-757114f96210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{ef8db53f-8917-4f7f-ad3f-811fd577ef79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Armature.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimController.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Win32\BasicWindow.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimBone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Armature.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimController.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\BasicWindow.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Animation\AnimBone.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+  </ItemGroup>
+</Project>
